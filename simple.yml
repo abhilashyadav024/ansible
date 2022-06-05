@@ -1,15 +1,7 @@
 --- #playbook
-#- name: simple play book
-#  hosts: all
-#  tasks:
-#    - name: task1
-#      ansible.builtin.debug:
-#        msg: "hi Abhilash"
-- name: variables
+- name: simple play book
   hosts: all
-  vars:
-    URL: HAPPY.COM
   tasks:
-    - name: task2
+    - name: task1
       ansible.builtin.debug:
-       msg: {{URL}}
+        msg: "hi Abhilash"
