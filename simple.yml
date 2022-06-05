@@ -3,5 +3,5 @@
   hosts: nodes
   tasks:
     - name: task1
-      ansible.builtin.msg
+      ansible.builtin.debug:
       msg: hi Abhilash
