@@ -1,4 +1,4 @@
-#--- #playbook
+--- #playbook
 #- name: simple play book
 #  hosts: all
 #  tasks:
