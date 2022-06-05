@@ -12,4 +12,4 @@
   tasks:
     - name: task2
       ansible.builtin.debug:
-      msg: "{{URL}}"
+       msg: {{URL}}
