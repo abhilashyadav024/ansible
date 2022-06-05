@@ -2,6 +2,6 @@
 - name: simple play book
   hosts: nodes
   tasks:
-    -name: task1
-     ansible.builtin.msg
-     msg: hi Abhilash
+    - name: task1
+      ansible.builtin.msg
+      msg: hi Abhilash
