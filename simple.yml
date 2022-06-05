@@ -10,6 +10,6 @@
   vars:
     URL: HAPPY.COM
   tasks:
-    - name: vars
+    - name: task2
       ansible.builtin.debug:
       msg: "{{URL}}"
